@@ -35,10 +35,11 @@ header {
   justify-content: space-between;
 }
 
-.logo {
+#logo-name {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
+  text-decoration: none;
 }
 
 nav ul {
