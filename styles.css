@@ -16,7 +16,7 @@ body {
 
 header {
   position: sticky;
-  top: 0;
+  top: 0.1rem;
   z-index: 10;
   backdrop-filter: blur(10px);
   background: rgba(3, 7, 18, 0.9);
@@ -24,7 +24,7 @@ header {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
 }
@@ -76,6 +76,18 @@ h1, h2, h3 {
 
 .hero-grid {
   display: grid;
+  gap: 2rem;
+}
+
+#umbau {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ff6600;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.umbau-grid-font {
+  display: grid;
+  padding-bottom: 1rem;
   gap: 2rem;
 }
 
