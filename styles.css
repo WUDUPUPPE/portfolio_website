@@ -1,15 +1,15 @@
 :root {
-  --bg: #050816;
-  --bg-alt: #0f172a;
-  --text: #e5e7eb;
-  --text-muted: #9ca3af;
-  --accent: #22c55e;
+  --bg: #11051b;
+  --bg-alt: #11051b;
+  --text: #d5f5e8;
+  --text-muted: #ecfff8;
+  --accent: #22c587;
 }
 
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, "Segoe UI", Arial, sans-serif, Tahoma;
   background: radial-gradient(circle at top, #020617 0, #020617 40%, #020617 60%, #000 100%);
   color: var(--text);
 }
