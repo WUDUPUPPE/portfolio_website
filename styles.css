@@ -1,8 +1,8 @@
 :root {
   --bg: #11051b;
   --bg-alt: #11051b;
-  --text: #d5f5e8;
-  --text-muted: #ecfff8;
+  --text: #d6ffef;
+  --text-muted: #d6ffefbb;
   --accent: #22c587;
 }
 
@@ -36,11 +36,9 @@ header {
 }
 
 .logo {
-  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
-  text-decoration: none;
 }
 
 nav ul {
@@ -82,7 +80,7 @@ h1, h2, h3 {
 #umbau {
   text-align: center;
   font-size: 1.4rem;
-  color: #ff6600;
+  color: #ff6600db;
   text-decoration: underline; text-underline-offset: 3px;
 }
 .umbau-grid-font {
@@ -98,8 +96,8 @@ h1, h2, h3 {
   color: var(--accent);
 }
 
-.lead {
-  font-size: 1.05rem;
+#lead {
+  font-size: 1rem;
   color: var(--text-muted);
 }
 
